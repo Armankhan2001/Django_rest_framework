@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'api_serializer',
     'rest_framework',
     'api_deserializer',
+    'ModelSerializer'
 ]
 
 MIDDLEWARE = [

@@ -18,9 +18,11 @@ from django.contrib import admin
 from django.urls import path,include
 from api_serializer import urls
 from api_deserializer import url
+from ModelSerializer import urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('serializer/' ,include(urls)),
     path('deserializer/' ,include(url)),
+    path('modelserializer/' ,include(urls)),
 ]

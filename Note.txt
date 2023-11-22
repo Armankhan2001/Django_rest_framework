@@ -1,0 +1,2 @@
+FunctionBased and class based Crud is performed using serializer.Serilizer (Regular serializer)
+under api.ModelSerializer Crud is performed using ModelSerializer.  and validations can be performed as we performed on regular serializer.

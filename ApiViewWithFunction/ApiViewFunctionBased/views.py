@@ -32,7 +32,7 @@ def student_api(request, pk=None):
         print(stu,"kakakaka")
         serializer = StudentSerializers(stu,many=True)
         return Response(serializer.data)
-    
+
     if request.method =='POST':
         serializer = StudentSerializers(data = request.data)
         if serializer.is_valid():
